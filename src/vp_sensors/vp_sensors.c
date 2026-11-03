@@ -77,6 +77,7 @@ extern vp_sensor_config_t imx415_linear_3480x2160_raw10_60fps_4lane;
 extern vp_sensor_config_t sc850sl_linear_3840x2160_raw10_30fps_4lane;
 extern vp_sensor_config_t sc835hai_linear_3840x2160_raw10_30fps_4lane;
 extern vp_sensor_config_t sc533hgs_linear_2592x1944_raw10_30fps_4lane;
+extern vp_sensor_config_t sc533hgs_linear_2592x1944_raw10_60fps_4lane;
 extern vp_sensor_config_t shw3g_linear_2064x1552_raw12_30fps_4lane;
 
 vp_sensor_config_t *vp_sensor_config_list[] = {
@@ -128,6 +129,7 @@ vp_sensor_config_t *vp_sensor_config_list[] = {
 	&sc850sl_linear_3840x2160_raw10_30fps_4lane,
 	&sc835hai_linear_3840x2160_raw10_30fps_4lane,
 	&sc533hgs_linear_2592x1944_raw10_30fps_4lane,
+	&sc533hgs_linear_2592x1944_raw10_60fps_4lane,
 	&shw3g_linear_2064x1552_raw12_30fps_4lane,
 };
 
